@@ -2,28 +2,49 @@
 document.getElementById('submitName').addEventListener('click', function () {
     const playerName = document.getElementById('playerName').value;
     if (playerName) {
-        // Store the name in session storage
         sessionStorage.setItem('playerName', playerName);
-        // Hide the name input and show the game controls
-        document.getElementById('nameInput').style.display = 'none';
-        document.getElementById('gameControls').className = "d-flex flex-column";
+        displayController('nameInput','gameControls');
     }
 });
 
-// Check if the player's name is already in session storage
+// Check if the player's name is already in session storage, 
+// hides name text field if it is
 const storedName = sessionStorage.getItem('playerName');
 if (storedName) {
-    // Hide the name input and show the game controls
-    document.getElementById('nameInput').style.display = 'none';
-    document.getElementById('gameControls').className = "d-flex flex-column";
+    displayController('nameInput','gameControls');
 }
 
+// Event listeners for button clicks
 document.getElementById('newGameBtn').addEventListener('click', function () {
-    document.getElementById('gameControls').className = "custom-hidden";
-    document.getElementById('quizCategories').className = "d-flex flex-column";
+    displayController('gameControls','quizDifficulty');
 });
 
+// Handles chosen difficulty and saves it on session storage
+const difficultyButtons = document.querySelectorAll('.quiz-difficulty-btn');
+difficultyButtons.forEach(button => {
+  button.addEventListener('click', function () {
+    displayController('quizDifficulty', 'quizCategories');
+    sessionStorage.setItem('difficulty', this.value);
+  });
+});
+
+// Handles chosen category and saves it on session storage
+const categoryButtons = document.querySelectorAll('.quiz-category-btn');
+categoryButtons.forEach(button => {
+  button.addEventListener('click', function () {
+    // displayController('quizDifficulty', 'quizCategories');
+    sessionStorage.setItem('category', this.value);
+  });
+});
+
+// Deletes the currently saved user session
 document.getElementById('quitGameBtn').addEventListener('click', function () {
     sessionStorage.clear();
     location.reload();
 });
+
+// Controller for showing and hiding divs
+function displayController(hide, show){
+    document.getElementById(hide).className = "custom-hidden";
+    document.getElementById(show).className = "d-flex flex-column";
+}
