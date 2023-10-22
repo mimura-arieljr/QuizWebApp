@@ -1,0 +1,38 @@
+/* Style for the html page */
+.centered {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.custom-hidden {
+    display: none; 
+}
+
+/* Submit Button Style and Animation */
+#submitName:hover span {
+  padding-right: 15px;
+}
+
+#submitName:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#submitName span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#submitName span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}

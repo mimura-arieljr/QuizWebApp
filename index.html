@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="wwwroot/quizapp.css">
+  <link rel="icon" href="wwwroot/web/icon-192.png">
+  <title>QuizApp</title>
+</head>
+<body>
+  <div class="centered">
+    <div id="nameInput">
+      <h3>▄▀▄ █ █ █ ▀█▀ ▄▀▄ █▀▄ █▀▄</h3>
+      <h3>▀▄█ ▀▄█ █ █▄▄ █▀█ █▀  █▀ </h3>
+      <br>
+      <div class="input-group mb-3">
+        <input type="text" class="form-control  " id="playerName" placeholder="Enter Name">
+        <div class="input-group-append">
+          <button class="btn btn-dark rounded-right" id="submitName"><span>Enter</span></button>
+        </div>
+      </div>
+    </div>
+
+    <div id="gameControls" class="custom-hidden">
+      <button class="btn btn-outline-dark mb-3 pl-4 pr-4" id="newGameBtn">New Game</button>
+      <button class="btn btn-outline-dark mb-3" id="settingsBtn">Settings</button>
+      <button class="btn btn-outline-danger" id="quitGameBtn">Quit Game</button>
+    </div>
+
+    <div id="quizCategories" class="custom-hidden">
+        <h3 class="font-weight-bold pb-3 ">Choose a Category</h3>
+        <button class="btn btn-outline-dark mb-3 pl-4 pr-4" id="scienceBtn">Science</button>
+        <button class="btn btn-outline-dark mb-3" id="giBtn">General Info</button>
+        <button class="btn btn-outline-dark mb-3" id="mathBtn">Math</button>
+        <button class="btn btn-outline-dark" id="entBtn">Entertainment</button>
+      </div>
+  </div>
+
+  <script src="wwwroot/quizapp.js"></script>
+</body>
+</html>
