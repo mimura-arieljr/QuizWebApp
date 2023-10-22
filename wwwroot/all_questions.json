@@ -1,0 +1,906 @@
+[
+  {
+    "QuestionID": "Q1",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Hg is the chemical symbol for which element?",
+    "Answer": "mercury"
+  },
+  {
+    "QuestionID": "Q2",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Who was the scientist to propose the Laws of Motion?",
+    "Answer": "Isaac Newton"
+  },
+  {
+    "QuestionID": "Q3",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Animals that eat both plants and meat are called what?",
+    "Answer": "omnivores"
+  },
+  {
+    "QuestionID": "Q4",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Which is the hottest planet in the solar system?",
+    "Answer": "Venus"
+  },
+  {
+    "QuestionID": "Q5",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Who was the scientist to propose the General Theory of Relativity?",
+    "Answer": "Albert Einstein"
+  },
+  {
+    "QuestionID": "Q6",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "What is the smallest unit of matter?",
+    "Answer": "atom"
+  },
+  {
+    "QuestionID": "Q7",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "What is the smallest unit of life?",
+    "Answer": "cell"
+  },
+  {
+    "QuestionID": "Q8",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "What is the element Pb?",
+    "Answer": "lead"
+  },
+  {
+    "QuestionID": "Q14",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "98deg Celcius is the boiling point of water H20",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q15",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "You can hear anything in outer space?",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q16",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "Your hair and your nails are made from the same material.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q17",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "HTTP means Hypertext Transmission Protocol.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q18",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "The name of Apple's desktop operating system is called Mac OS.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q19",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": ".xls is a file extension used in MS Word.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q20",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "UV stands for UltraViolet.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q21",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "If E=Mc2 according to Einstein, what does M stand for?",
+    "Answer": "Mass"
+  },
+  {
+    "QuestionID": "Q22",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "What o is the earths atmospheric layer being destroyed by aerosols?",
+    "Answer": "Ozone"
+  },
+  {
+    "QuestionID": "Q24",
+    "Category": "Science",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "In physics, what does DC stand for?",
+    "Answer": "Direct Current"
+  },
+  {
+    "QuestionID": "Q40",
+    "Category": "GeneralInfo",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Name the worlds largest ocean.",
+    "Answer": "Pacific"
+  },
+  {
+    "QuestionID": "Q41",
+    "Category": "GeneralInfo",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Which astrological signs symbol is a crab?",
+    "Answer": "Cancer"
+  },
+  {
+    "QuestionID": "Q42",
+    "Category": "GeneralInfo",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "What is a group of lions called?",
+    "Answer": "pride"
+  },
+  {
+    "QuestionID": "Q43",
+    "Category": "GeneralInfo",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "What is the last color a rainbow ROYGBIV?",
+    "Answer": "violet"
+  },
+  {
+    "QuestionID": "Q44",
+    "Category": "GeneralInfo",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Who was the first American president?",
+    "Answer": "George Washington"
+  },
+  {
+    "QuestionID": "Q45",
+    "Category": "GeneralInfo",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Who was the first Philippine president?",
+    "Answer": "Emilio Aguinaldo"
+  },
+  {
+    "QuestionID": "Q46",
+    "Category": "GeneralInfo",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Who was the first woman Philippine president?",
+    "Answer": "Corazon Aquino"
+  },
+  {
+    "QuestionID": "Q47",
+    "Category": "GeneralInfo",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Which zodiac sign is called The Maiden?",
+    "Answer": "Virgo"
+  },
+  {
+    "QuestionID": "Q54",
+    "Category": "GeneralInfo",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "Cornea is the part of the human eye that controls the amount of light that passes through the pupil.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q55",
+    "Category": "GeneralInfo",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "In chess, a bishop can move diagonally.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q56",
+    "Category": "GeneralInfo",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "The Eiffel Tower is in Germany.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q57",
+    "Category": "GeneralInfo",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "Japanese alphabet has two types, Katakana and Hiragana.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q58",
+    "Category": "GeneralInfo",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "UST has a lion as their university mascot.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q59",
+    "Category": "GeneralInfo",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "Japanese sake is made from rice.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q60",
+    "Category": "GeneralInfo",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "Smirnoff mule is a beer.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q20",
+    "Category": "Science",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "Optics is the study of what?",
+    "Answer": "Light"
+  },
+  {
+    "QuestionID": "Q21",
+    "Category": "Science",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "Which computer company invented the first floppy disks, hard disk drives, and DRAMS?",
+    "Answer": "IBM"
+  },
+  {
+    "QuestionID": "Q22",
+    "Category": "Science",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "In what type of matter are atoms most tightly packed?",
+    "Answer": "solid"
+  },
+  {
+    "QuestionID": "Q23",
+    "Category": "Science",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "What instrument is used to measure wind speed?",
+    "Answer": "anemometer"
+  },
+  {
+    "QuestionID": "Q33",
+    "Category": "Science",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "Chloroplasts can be found in animal cells.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q34",
+    "Category": "Science",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "Rainforests are considered temperate climate regions.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q35",
+    "Category": "Science",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "The graduated cylinder is a tool thats used to measure fluid volume.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q36",
+    "Category": "Science",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "Gregorie Mendel is considered the founder of the modern science of genetics?",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q37",
+    "Category": "Science",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "Johannes Kepler best known for Laws of Thermodynamics.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q38",
+    "Category": "Science",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "Helium becomes a superfluid when cooled to absolute zero.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q39",
+    "Category": "Science",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "Spiders have 6 legs",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q61",
+    "Category": "GeneralInfo",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "What musical term is indicates a chord where the notes are played one after another rather than all together?",
+    "Answer": "Arpeggio"
+  },
+  {
+    "QuestionID": "Q62",
+    "Category": "GeneralInfo",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "What color does gold leaf appear if you hold it up to the light?",
+    "Answer": "Green"
+  },
+  {
+    "QuestionID": "Q63",
+    "Category": "GeneralInfo",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "What is the capital city of Paraguay?",
+    "Answer": "Asuncion"
+  },
+  {
+    "QuestionID": "Q64",
+    "Category": "GeneralInfo",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "Which instrument is associated with Earl Powell?",
+    "Answer": "Piano"
+  },
+  {
+    "QuestionID": "Q65",
+    "Category": "GeneralInfo",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "In a Glossectomy, which body part is removed?",
+    "Answer": "tongue"
+  },
+  {
+    "QuestionID": "Q66",
+    "Category": "GeneralInfo",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "Elon Musk is the CEO of which famous brand?",
+    "Answer": "Tesla"
+  },
+  {
+    "QuestionID": "Q67",
+    "Category": "GeneralInfo",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "What is the technical term for a lie detector?",
+    "Answer": "polygraph"
+  },
+  {
+    "QuestionID": "Q68",
+    "Category": "GeneralInfo",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "Which is the hardest natural substance found on earth?",
+    "Answer": "diamond"
+  },
+  {
+    "QuestionID": "Q75",
+    "Category": "GeneralInfo",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "Two atomic bombs were dropped in Nagasaki and Hiroshima Japan.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q76",
+    "Category": "GeneralInfo",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "The first person to step on the moon was Galileo Galilei.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q77",
+    "Category": "GeneralInfo",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "The sun in the Milky Way galaxy is considered a star.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q78",
+    "Category": "GeneralInfo",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "Lightyear is a measure of time.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q79",
+    "Category": "GeneralInfo",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "When in Norway, you can go visit the city of Stockholm.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q80",
+    "Category": "GeneralInfo",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "Mount Everest is located in Nepal.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q81",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "What is the perimeter of a circle called?",
+    "Answer": "circumference"
+  },
+  {
+    "QuestionID": "Q82",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Which number is greater, a googol, or a quadrillion?",
+    "Answer": "googol"
+  },
+  {
+    "QuestionID": "Q83",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "What is an angle called if its greater than 90 degrees?",
+    "Answer": "obtuse"
+  },
+  {
+    "QuestionID": "Q84",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "What is the top number of a fraction called?",
+    "Answer": "numerator"
+  },
+  {
+    "QuestionID": "Q85",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "What is a shape with eight sides called?",
+    "Answer": "octagon"
+  },
+  {
+    "QuestionID": "Q86",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "What is the roman numeral for number 19?",
+    "Answer": "xix"
+  },
+  {
+    "QuestionID": "Q87",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Does a convex shape curve inward or outward?",
+    "Answer": "outward"
+  },
+  {
+    "QuestionID": "Q88",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "What is the basic metric unit of mass?",
+    "Answer": "gram"
+  },
+  {
+    "QuestionID": "Q89",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "What is the basic metric unit of length?",
+    "Answer": "meter"
+  },
+  {
+    "QuestionID": "Q90",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "A formula for the area of a circle can be written as (pi)Rsquared, what is R?",
+    "Answer": "radius"
+  },
+  {
+    "QuestionID": "Q91",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Who formulated the Pythagorean Theorem?",
+    "Answer": "Pythagoras"
+  },
+  {
+    "QuestionID": "Q98",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "Zero is the only number that doesnt have its own Roman numeral.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q99",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "Two is not the only even prime number.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q100",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "Pi is a rational number.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q101",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "All sides are equal in an Isosceles triangle.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q102",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "Negative four is a natural number.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q103",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "100 is greater than 10 squared.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q104",
+    "Category": "Math",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "The number 28 is a whole number.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q139",
+    "Category": "Entertainment",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "Which Former NBA Player Was Nicknamed Agent Zero?",
+    "Answer": "Gilbert Arenas"
+  },
+  {
+    "QuestionID": "Q140",
+    "Category": "Entertainment",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "The character of Cyclops is romantically linked to what other character in the X-Men universe?",
+    "Answer": "Jean Grey"
+  },
+  {
+    "QuestionID": "Q141",
+    "Category": "Entertainment",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "In The Matrix, does Neo take the blue or red pill?",
+    "Answer": "red"
+  },
+  {
+    "QuestionID": "Q142",
+    "Category": "Entertainment",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "In the film series Harry Potter, what is the wizarding sport played on broomsticks?",
+    "Answer": "quidditch"
+  },
+  {
+    "QuestionID": "Q143",
+    "Category": "Entertainment",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "In Marvel films, what is the name of the actor who portrayed the character of Captain America?",
+    "Answer": "Chris Evans"
+  },
+  {
+    "QuestionID": "Q144",
+    "Category": "Entertainment",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "In the series The Office, who is the regional branch manager of Scranton branch?",
+    "Answer": "Michael Scott"
+  },
+  {
+    "QuestionID": "Q145",
+    "Category": "Entertainment",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "In the film Zootopia, what kind of animal is Judy Hopps?",
+    "Answer": "rabbit"
+  },
+  {
+    "QuestionID": "Q152",
+    "Category": "Entertainment",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "Arthur Doyle created Sherlock Holmes.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q153",
+    "Category": "Entertainment",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "Robbie Coltrane, who plays Hagrid in the Harry Potter films, was the first actor to be cast in the series.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q154",
+    "Category": "Entertainment",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "In the series Game of Thrones, Jon Snow became the king of Westeros.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q155",
+    "Category": "Entertainment",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "Kelly Clarkson was the very first American Idol winner.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q156",
+    "Category": "Entertainment",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "Billie Eilish is obsessed with the classic TV show The Office.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q157",
+    "Category": "Entertainment",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "Sandra Bullock played the character of Emily in the film series Emily in Paris.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q121",
+    "Category": "Entertainment",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Which Avenger other than Captain America was able to pick up Thors Mjolnir in the Marvel movies?",
+    "Answer": "vision"
+  },
+  {
+    "QuestionID": "Q122",
+    "Category": "Entertainment",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "In little red riding hood, who does the wolf dress up as?",
+    "Answer": "grandmother"
+  },
+  {
+    "QuestionID": "Q123",
+    "Category": "Entertainment",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Who is the half-blood prince in Harry Potter?",
+    "Answer": "Severus Snape"
+  },
+  {
+    "QuestionID": "Q124",
+    "Category": "Entertainment",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Wolverine has been played by what Australian actor in the X-Men films spanning from 2000-2017?",
+    "Answer": "Hugh Jackman"
+  },
+  {
+    "QuestionID": "Q125",
+    "Category": "Entertainment",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Who was the fictional character Shrek marries in his titular film series?",
+    "Answer": "Fiona"
+  },
+  {
+    "QuestionID": "Q126",
+    "Category": "Entertainment",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "In the game Mobile Legends:Bang Bang, who has the ability to turn opponents to a cat?",
+    "Answer": "nana"
+  },
+  {
+    "QuestionID": "Q127",
+    "Category": "Entertainment",
+    "Difficulty": "Easy",
+    "QuestionType": "Identification",
+    "Question": "Which Marvel movies soundtrack won two Grammys?",
+    "Answer": "Black Panther"
+  },
+  {
+    "QuestionID": "Q133",
+    "Category": "Entertainment",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "J.K Rowling is the famous author of the Harry Potter book series.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q134",
+    "Category": "Entertainment",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "In films, Tom Holland is the second actor who portrayed the role of Spider-Man.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q135",
+    "Category": "Entertainment",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "Silent Sanctuary popularized the song Imahe",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q136",
+    "Category": "Entertainment",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "Legend of Korra is the sequel of the cartoon series Avatar: Legend of Aang",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q137",
+    "Category": "Entertainment",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "In the anime series Death Note, Kira is also Light Yagami",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q138",
+    "Category": "Entertainment",
+    "Difficulty": "Easy",
+    "QuestionType": "TrueFalse",
+    "Question": "Benedict Cumberbatch portrayed the character of John Watson in the series film, Sherlock Holmes.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q105",
+    "Category": "Math",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "What is the name of the longest side of a right-angled triangle?",
+    "Answer": "hypotenuse"
+  },
+  {
+    "QuestionID": "Q106",
+    "Category": "Math",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "What do you call the circles with the same center?",
+    "Answer": "concentric"
+  },
+  {
+    "QuestionID": "Q107",
+    "Category": "Math",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "What mathematical word is used to indicate the likelihood of something to occur?",
+    "Answer": "probability"
+  },
+  {
+    "QuestionID": "Q108",
+    "Category": "Math",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "Understanding and describing change is a common theme in the natural sciences, and what was developed as a powerful tool to investigate it?",
+    "Answer": "calculus"
+  },
+  {
+    "QuestionID": "Q109",
+    "Category": "Math",
+    "Difficulty": "Hard",
+    "QuestionType": "Identification",
+    "Question": "Who is the father of Mathematics?",
+    "Answer": "Archimedes"
+  },
+  {
+    "QuestionID": "Q115",
+    "Category": "Math",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "Hologram is a flat image that can be displayed in three dimensions.",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q116",
+    "Category": "Math",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "A hexadecagon is a geometric form that does not have any vertices.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q117",
+    "Category": "Math",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "Eudemus wrote an elaborate history of Greek Geometry from its earliest origins?",
+    "Answer": "true"
+  },
+  {
+    "QuestionID": "Q118",
+    "Category": "Math",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "The derivative of tanx is secx/tanx.",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q119",
+    "Category": "Math",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "The integral of sinx is cotx+C",
+    "Answer": "false"
+  },
+  {
+    "QuestionID": "Q120",
+    "Category": "Math",
+    "Difficulty": "Hard",
+    "QuestionType": "TrueFalse",
+    "Question": "The integral of hyperbolic function cothx dx is ln(coshx)+C",
+    "Answer": "false"
+  }
+]

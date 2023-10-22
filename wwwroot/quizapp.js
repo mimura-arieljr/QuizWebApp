@@ -32,7 +32,7 @@ difficultyButtons.forEach(button => {
 const categoryButtons = document.querySelectorAll('.quiz-category-btn');
 categoryButtons.forEach(button => {
   button.addEventListener('click', function () {
-    // displayController('quizDifficulty', 'quizCategories');
+    displayController('quizCategories', 'questionBlock');
     sessionStorage.setItem('category', this.value);
   });
 });
