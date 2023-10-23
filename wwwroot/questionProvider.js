@@ -106,6 +106,9 @@ function populateWithQuestion(selectedQuestions, questionCount) {
         if (highScore === null || currentScore > parseInt(highScore)) {
             setHighScore(currentScore);
             highScore = currentScore;
+            if (currentScore > 0 ) {
+                resultText.className = 'blinking-border';
+            }
         }
 
         resultText.innerHTML =
@@ -114,10 +117,10 @@ function populateWithQuestion(selectedQuestions, questionCount) {
             `<p class='mt-2 small text-center'>High Score: ${highScore}</p>`;
 
         questionContainer.appendChild(resultText);
-        
+
         setTimeout(function () {
             location.reload()
-        }, 2000);
+        }, 2500);
 
     }
 }

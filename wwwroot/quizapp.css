@@ -36,3 +36,14 @@
   right: -20px;
   transition: 0.5s;
 }
+
+/* Style for new highscore */
+@keyframes blink {
+  0% { border: 5px solid transparent; }
+  50% { border: 5px solid lime; }
+  100% { border: 5px solid transparent; }
+}
+
+.blinking-border {
+  animation: blink 1s infinite;
+}

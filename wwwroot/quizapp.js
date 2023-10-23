@@ -20,6 +20,9 @@ if (storedName) {
 document.getElementById('newGameBtn').addEventListener('click', function () {
   displayController('gameControls', 'quizDifficulty');
 });
+document.getElementById('settingsBtn').addEventListener('click', function () {
+  displayController('gameControls', 'settingsContainer');
+});
 
 // Handles chosen difficulty and saves it on session storage
 const difficultyButtons = document.querySelectorAll('.quiz-difficulty-btn');
