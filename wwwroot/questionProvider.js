@@ -17,7 +17,7 @@ function getQuestions(difficulty, category) {
 
             // Populate the Set with unique questions
             for (const question of filteredQuestions) {
-                if (uniqueQuestions.size < 10) {
+                if (uniqueQuestions.size < 2) {
                     uniqueQuestions.add(question);
                 } else {
                     break;
@@ -107,7 +107,7 @@ function populateWithQuestion(selectedQuestions, questionCount) {
             setHighScore(currentScore);
             highScore = currentScore;
             if (currentScore > 0 ) {
-                resultText.className = 'p-2 blinking-border';
+                resultText.className = 'pb-3 blinking-border';
             }
         }
 
