@@ -67,7 +67,7 @@ function populateWithQuestion(selectedQuestions, questionCount) {
         answerInput.className = 'form-control border-dark';
 
         const verificationText = document.createElement('span');
-        verificationText.className = ('small text-right')
+        verificationText.className = ('small mt-2 text-right')
 
         const submitButton = document.createElement('button');
         submitButton.textContent = 'Submit';
@@ -77,10 +77,12 @@ function populateWithQuestion(selectedQuestions, questionCount) {
             const userAnswer = answerInput.value;
             if (userAnswer.toLowerCase() === question.Answer.toLowerCase()) {
                 currentScore++;
-                answerInput.className = 'form-control border-success'
+                answerInput.className = 'form-control border-success';
+                submitButton.className = 'custom-hidden';
                 verificationText.innerHTML = `Correct! Current Score: ${currentScore}`;
             } else {
                 answerInput.className = 'form-control border-danger'
+                submitButton.className = 'custom-hidden';
                 verificationText.innerHTML = `Correct Answer: ${question.Answer}`;
             }
 
