@@ -12,12 +12,12 @@ function getQuestions(difficulty, category) {
                 const j = Math.floor(Math.random() * (i + 1));
                 [filteredQuestions[i], filteredQuestions[j]] = [filteredQuestions[j], filteredQuestions[i]];
             }
-            
+
             const uniqueQuestions = new Set(); // Use a Set to ensure uniqueness
 
             // Populate the Set with unique questions
             for (const question of filteredQuestions) {
-                if (uniqueQuestions.size < 10) {
+                if (uniqueQuestions.size < 2) {
                     uniqueQuestions.add(question);
                 } else {
                     break;
@@ -101,9 +101,31 @@ function populateWithQuestion(selectedQuestions, questionCount) {
         questionContainer.appendChild(questionDiv);
     } else {
         const resultText = document.createElement('p');
+        let highScore = getHighScore();
+
+        if (highScore === null || currentScore > parseInt(highScore)) {
+            setHighScore(currentScore);
+            highScore = currentScore;
+        }
+
         resultText.innerHTML =
             `<strong>Quiz Complete</strong>` +
-            `<p class='mt-2 small text-center'>Total Score: ${currentScore}</p>`;
+            `<p class='mt-2 small text-center'>Total Score: ${currentScore}</p>` +
+            `<p class='mt-2 small text-center'>High Score: ${highScore}</p>`;
+
         questionContainer.appendChild(resultText);
+        
+        setTimeout(function () {
+            location.reload()
+        }, 2000);
+
     }
+}
+
+function setHighScore(score) {
+    sessionStorage.setItem('highscore', score)
+}
+
+function getHighScore() {
+    return sessionStorage.getItem('highscore');
 }
