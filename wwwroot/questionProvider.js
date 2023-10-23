@@ -1,5 +1,5 @@
 export function getQuestions(difficulty, category) {
-    fetch('wwwroot/exam.json')
+    return fetch('wwwroot/exam.json')
         .then((response) => response.json())
         .then((data) => {
             // Filter questions based on difficulty and category
@@ -20,11 +20,10 @@ export function getQuestions(difficulty, category) {
 
             // Convert the Set back to an array
             const selectedQuestions = Array.from(uniqueQuestions);
-
-            // You can now work with the selectedQuestions array
-            console.log(selectedQuestions);
+            return selectedQuestions;
         })
         .catch((error) => {
             console.error('Error fetching data:', error);
+            throw error;
         });
 }
