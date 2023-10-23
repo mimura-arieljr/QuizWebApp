@@ -17,7 +17,7 @@ function getQuestions(difficulty, category) {
 
             // Populate the Set with unique questions
             for (const question of filteredQuestions) {
-                if (uniqueQuestions.size < 2) {
+                if (uniqueQuestions.size < 10) {
                     uniqueQuestions.add(question);
                 } else {
                     break;
