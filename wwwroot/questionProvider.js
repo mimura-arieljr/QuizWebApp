@@ -107,7 +107,7 @@ function populateWithQuestion(selectedQuestions, questionCount) {
             setHighScore(currentScore);
             highScore = currentScore;
             if (currentScore > 0 ) {
-                resultText.className = 'blinking-border';
+                resultText.className = 'p-2 blinking-border';
             }
         }
 

@@ -39,9 +39,9 @@
 
 /* Style for new highscore */
 @keyframes blink {
-  0% { border: 5px solid transparent; }
-  50% { border: 5px solid lime; }
-  100% { border: 5px solid transparent; }
+  0% { border: 2px solid transparent; }
+  50% { border: 2px solid #22bb33; }
+  100% { border: 2px solid transparent; }
 }
 
 .blinking-border {
