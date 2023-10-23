@@ -13,10 +13,11 @@
 <body>
     <div class="centered">
         <div id="nameInput">
-            <h3>▄▀▄ █ █ █ ▀█▀ ▄▀▄ █▀▄ █▀▄</h3>
-            <h3>▀▄█ ▀▄█ █ █▄▄ █▀█ █▀  █▀ </h3>
+            <div class="text-center m-0 p-0">
+                <img src="wwwroot/quizapp.png" alt="QUIZAPP" class="img-responsive">
+            </div>
             <br>
-            <div class="input-group mb-3">
+            <div class="input-group mx-auto mb-3" style="width: 50%">
                 <input type="text" class="form-control" id="playerName" placeholder="Enter Name">
                 <div class="input-group-append">
                     <button class="btn btn-dark rounded-right" id="submitName"><span>Enter</span></button>
@@ -41,16 +42,21 @@
 
         <div id="quizDifficulty" class="custom-hidden">
             <h3 class="font-weight-bold pb-3 ">How strong are you?</h3>
-            <button class="btn btn-outline-dark mb-3 pl-4 pr-4 quiz-difficulty-btn" id="easyBtn" value="Easy">Weak AF</button>
-            <button class="btn btn-outline-dark mb-3 quiz-difficulty-btn" id="hardBtn" value="Hard">Stronger than you</button>
+            <button class="btn btn-outline-dark mb-3 pl-4 pr-4 quiz-difficulty-btn" id="easyBtn" value="Easy">Weak
+                AF</button>
+            <button class="btn btn-outline-dark mb-3 quiz-difficulty-btn" id="hardBtn" value="Hard">Stronger than
+                you</button>
         </div>
 
         <div id="quizCategories" class="custom-hidden">
             <h3 class="font-weight-bold pb-3 ">Choose a Category</h3>
-            <button class="btn btn-outline-dark mb-3 pl-4 pr-4 quiz-category-btn" id="scienceBtn" value="Science">Science</button>
-            <button class="btn btn-outline-dark mb-3 quiz-category-btn" id="giBtn" value="GeneralInfo">General Info</button>
+            <button class="btn btn-outline-dark mb-3 pl-4 pr-4 quiz-category-btn" id="scienceBtn"
+                value="Science">Science</button>
+            <button class="btn btn-outline-dark mb-3 quiz-category-btn" id="giBtn" value="GeneralInfo">General
+                Info</button>
             <button class="btn btn-outline-dark mb-3 quiz-category-btn" id="mathBtn" value="Math">Math</button>
-            <button class="btn btn-outline-dark quiz-category-btn" id="entBtn" value="Entertainment">Entertainment</button>
+            <button class="btn btn-outline-dark quiz-category-btn" id="entBtn"
+                value="Entertainment">Entertainment</button>
         </div>
 
         <div id="questionContainer" class="custom-hidden">

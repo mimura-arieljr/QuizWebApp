@@ -47,3 +47,8 @@
 .blinking-border {
   animation: blink 1s infinite;
 }
+
+.img-responsive {
+  max-width: 60%;
+  height: auto;
+}
